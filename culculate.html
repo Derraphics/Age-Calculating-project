@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="bootstrap.css" type="text/css">
     <script src="javascript.js"></script>
 </head>
 <body>
-    <nav class="navbar ">
-    </nav>
+      <nav class="navbar ">
+  </nav>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Age Culculator</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,5 +27,89 @@
           </ul>
         </div>
       </nav>
+      <div>
+
+
+          </div class="images">
+          <div class="card mb-8" style="max-width: 950px;" padding-left="20px">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="images/ghana4.jpeg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">The Ghana Culture</h5>
+                  <p class="card-text">Among some Ghanaian ethnic groups like the Akan, Ga, Ewe and Nzema, a name is automatically 
+                      assigned based on the day the child is born. These day names correspond to the day of the week someone is born and so by default, everybody has one - though the name may not necessarily appear on official documents.</p>
+                  <p class="card-text"><small class="text-muted">This is the naming culture of the people of ghana</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <blockquote class="blockquote text-center">
+        <p class="mb-0">As we have seen from the text above and the naming culture of the Ghana people we know that you are wondering <br>
+            what your name would be based on your gender and the day that you we born. <br>
+        To know your name and your age you just need to fill in the following form and the system will automatically <br>
+    tell your Akan name and the day of the week that you were born i.e Monday, Tuesday e.t.c <br>
+           Make sure you provide the correct details for you to get your results.</p>
+        <footer class="blockquote-footer">The Ghana Naming Culture <cite title="Source Title"> AKAN</cite></footer>
+      </blockquote>
+
+      <div class="forms">
+        <form>
+            <p>Which month were you born (1-12): <input type="text" name="month" size="7"> </p>
+            <p>Which  day of the  Month was it? (1-31): <input type="text" name="day" size="5"> </p>
+            <p>Year of birth : <input type="text" name="year" size="25"> </p>
+            <p> Gender <label>
+                <input type="radio" value="Male" name="Gender">
+                male
+                <span></span>
+            </label></p>
+            <div class="female">
+                <p>  <label>
+                    <input type="radio" value="Female" name="Gender">
+                    Female
+                    <span></span>
+                </label></p>
+            </div>
+
+            <p><input type="button" value="Calculate" onclick="compute(this.form)"> <input type="reset" value="Reset"> </p>
+            <p>Date of Birth: <input type="text" name="result1" size="19"> </p>
+            <p>Day of Week: <input type="text" name="result2" size="19"> </p>
+            <p>The Akan name: <input type="text" name="result3" size="17"> </p>
+            
+          </form>
+      </div>
+      <div class="mt-5 pt-5 pb-5 footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-xs-12 about-company">
+              <h2>Heading</h2>
+              <p class="pr-5 text-white-50">Age Culculator </p>
+              <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i
+                    class="fa fa-linkedin-square"></i></a></p>
+            </div>
+            <div class="col-lg-3 col-xs-12 links">
+              <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+              <ul class="m-0 p-0">
+                <li>- <a href="https://derraphics.github.io/My-Portfolio-/.">My portfolio</a></li>
+              
+              </ul>
+            </div>
+            <div class="col-lg-4 col-xs-12 location">
+              <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+              <p>Lang'ata road next to Langata military baracks</p>
+              <p class="mb-0"><i class="fa fa-phone mr-3"></i>(254) 701032272</p>
+              <p><i class="fa fa-envelope-o mr-3"></i>info@derraphics</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col copyright">
+              <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
