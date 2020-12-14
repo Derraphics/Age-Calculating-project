@@ -24,4 +24,4 @@ This Project is very simple in such a way that it is able to produce which day o
 If your would like to contribute to this project, fork the project and raise a PR
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
-Copyright (c) 2020 Derrick Muriithi
+Copyright (c) 2020 Derrick Muriithi w
