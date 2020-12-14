@@ -2,6 +2,9 @@
   font-size: 40px;
   font-family: cursive;
 }
+#amazing :hover {
+  background-color: rgb(168, 208, 209);
+}
 .card1 .card-title{
   padding-top: 30px;
   font-size: 23px;
