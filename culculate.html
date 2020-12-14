@@ -55,9 +55,14 @@
       </blockquote>
 
       <div class="forms">
+        <div class="h2">
+          <h3><strong>Fill the form and know  your Akan name  and 
+            know the day of the week that <br> you were Born</strong></h3>
+        </div>
+
         <form>
+          <p>Which  date were you born? (1-31): <input type="text" name="day" size="8"> </p>
             <p>Which month were you born (1-12): <input type="mont" name="month" size="7"> </p>
-            <p>Which  day of the  Month was it? (1-31): <input type="text" name="day" size="5"> </p>
             <p>Year of birth : <input type="text" name="year" size="25"> </p>
             <p> Gender <label>
                 <input type="radio" value="Male" name="Gender">
@@ -71,8 +76,9 @@
                     <span></span>
                 </label></p>
             </div>
-
-            <p><input type="button" value="Calculate" onclick="compute(this.form)"> <input type="reset" value="Reset"> </p>
+            <div id="calculate">
+              <p><input type="button" value="Calculate" onclick="compute(this.form)"> <input type="reset" value="Reset"> </p>
+            </div>
             <p>Date of Birth: <input type="text" name="result1" size="19"> </p>
             <p>Day of Week: <input type="text" name="result2" size="19"> </p>
             <p>The Akan name: <input type="text" name="result3" size="17"> </p>
@@ -101,7 +107,10 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-5 col-xs-12 about-company">
-                <h2>Heading</h2>
+                <div>
+                  <h2>Heading</h2>
+                </div>
+
                 <p class="pr-5 text-white-50">Age Culculator </p>
                 <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i
                       class="fa fa-linkedin-square"></i></a></p>
