@@ -1,0 +1,52 @@
+.footer{
+    background: skyblue;
+   
+
+        color: white;
+        transition: color .2s;
+}
+ 
+    .about-company i{
+      font-size: 25px;
+    }
+      a{
+        color:white;
+        transition: color .2s;
+      }
+        :hover{color:#4180CB}
+      
+    
+
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  
+  .links ul{
+    list-style-type: none;
+  }
+  #reach {
+    list-style: none;
+    text-align: center;
+  }
+  #reach :hover {
+    background-color: aliceblue;
+  }
+  .footer{
+    background: rgb(73, 89, 95);
+   
+
+        color: white;
+        transition: color .2s;
+}
+ 
+    .about-company i{
+      font-size: 25px;
+    }
+      a{
+        color:white;
+        transition: color .2s;
+      }
+  
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  
+  .links ul{
+    list-style-type: none;
+  }

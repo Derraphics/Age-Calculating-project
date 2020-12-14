@@ -1,0 +1,60 @@
+
+.video-background{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -100;
+}
+
+.female {
+    padding-left: 110px;
+
+}
+#img2 {
+    padding-left: 0px;
+    width: 100px;
+    align-items: center;
+}
+.card mb-8 {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.forms {
+    padding-left: 700px;
+    font-size: 30px;
+    padding-top: 40px;
+    background-color: rgb(150, 199, 196);
+}
+#reach {
+  list-style: none;
+  text-align: center;
+}
+#reach :hover {
+  background-color: aliceblue;
+
+}
+.footer{
+    background: rgb(73, 89, 95);
+   
+
+        color: white;
+        transition: color .2s;
+}
+ 
+    .about-company i{
+      font-size: 25px;
+    }
+      a{
+        color:white;
+        transition: color .2s;
+      }
+  
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  
+  .links ul{
+    list-style-type: none;
+  }

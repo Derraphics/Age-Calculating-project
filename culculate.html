@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="bootstrap.css" type="text/css">
-    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/calculate.css">
+
 </head>
 <body>
       <nav class="navbar ">
@@ -29,7 +29,11 @@
       </nav>
       <div>
 
-
+        <div id="video">
+          <video autoplay loop class="video-background" muted plays-inline>
+              <source src="nature.mp4" type="video/mp4">
+          </video>
+      </div>
           </div class="images">
           <div class="card mb-8" style="max-width: 950px;" padding-left="20px">
             <div class="row no-gutters">
@@ -38,7 +42,7 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">The Ghana Culture</h5>
+                  <h4 class="card-title"> <strong>The Ghana Naming Culture</strong></h4>
                   <p class="card-text">Among some Ghanaian ethnic groups like the Akan, Ga, Ewe and Nzema, a name is automatically 
                       assigned based on the day the child is born. These day names correspond to the day of the week someone is born and so by default, everybody has one - though the name may not necessarily appear on official documents.</p>
                   <p class="card-text"><small class="text-muted">This is the naming culture of the people of ghana</small></p>
@@ -58,7 +62,7 @@
 
       <div class="forms">
         <form>
-            <p>Which month were you born (1-12): <input type="text" name="month" size="7"> </p>
+            <p>Which month were you born (1-12): <input type="mont" name="month" size="7"> </p>
             <p>Which  day of the  Month was it? (1-31): <input type="text" name="day" size="5"> </p>
             <p>Year of birth : <input type="text" name="year" size="25"> </p>
             <p> Gender <label>
@@ -81,35 +85,55 @@
             
           </form>
       </div>
-      <div class="mt-5 pt-5 pb-5 footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5 col-xs-12 about-company">
-              <h2>Heading</h2>
-              <p class="pr-5 text-white-50">Age Culculator </p>
-              <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i
-                    class="fa fa-linkedin-square"></i></a></p>
-            </div>
-            <div class="col-lg-3 col-xs-12 links">
-              <h4 class="mt-lg-0 mt-sm-3">Links</h4>
-              <ul class="m-0 p-0">
-                <li>- <a href="https://derraphics.github.io/My-Portfolio-/.">My portfolio</a></li>
-              
-              </ul>
-            </div>
-            <div class="col-lg-4 col-xs-12 location">
-              <h4 class="mt-lg-0 mt-sm-4">Location</h4>
-              <p>Lang'ata road next to Langata military baracks</p>
-              <p class="mb-0"><i class="fa fa-phone mr-3"></i>(254) 701032272</p>
-              <p><i class="fa fa-envelope-o mr-3"></i>info@derraphics</p>
-            </div>
+      <div class="card mb-3">
+        <img src="images/icon1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div id="reach">
+            <h5 class="card-title">Reach us </h5>
+            <p class="card-text">You can reach us through all our social media platforms. <br>
+               <ul>
+                 Whatsapp <strong>+254 701032272</strong> <br>
+                 Facebook <strong>@Derraphics</strong><br>
+                 Twiter   <strong>@derraphics</strong><br>
+                 Instagram <strong>@bassDerraphics</strong><br>
+                  Youtube <strong>Derraphics Bass</strong><br>
+                  <strong>info@derrahics</strong><br>
+                  <p class="card-text"><small class="text-muted">info@derraphics</small></p>
+               </ul></p>
           </div>
-          <div class="row mt-5">
-            <div class="col copyright">
-              <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+    
+      <div class="footer">
+        <div class="mt-5 pt-5 pb-5 footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-xs-12 about-company">
+                <h2>Heading</h2>
+                <p class="pr-5 text-white-50">Age Culculator </p>
+                <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i
+                      class="fa fa-linkedin-square"></i></a></p>
+              </div>
+              <div class="col-lg-3 col-xs-12 links">
+                <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+                <ul class="m-0 p-0">
+                  <li>- <a href="https://derraphics.github.io/My-Portfolio-/.">My portfolio</a></li>
+                
+                </ul>
+              </div>
+              <div class="col-lg-4 col-xs-12 location">
+                <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+                <p>Lang'ata road next to Langata military baracks</p>
+                <p class="mb-0"><i class="fa fa-phone mr-3"></i>(254) 701032272</p>
+                <p><i class="fa fa-envelope-o mr-3"></i>info@derraphics</p>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col copyright">
+                <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <script src="javascript.js"></script> 
 </body>
 </html>
