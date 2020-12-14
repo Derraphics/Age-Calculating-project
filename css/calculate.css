@@ -59,3 +59,12 @@ h3 {
   font-size: 23px;
 
 }
+.head2 {
+  font-size: 30px;
+  text-align: center;
+}
+.head2 h4 {
+  font-size: 40px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
