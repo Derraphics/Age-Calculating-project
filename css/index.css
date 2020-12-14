@@ -1,8 +1,13 @@
 
 #amazing {
-  font-size: 35px;
+  font-size: 40px;
+  font-family: cursive;
 }
-
+.card1 .card-title{
+  padding-top: 30px;
+  font-size: 23px;
+  font-family: cursive;
+}
 .footer{
     background: skyblue;
         color: white;
