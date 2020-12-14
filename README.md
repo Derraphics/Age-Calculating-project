@@ -25,7 +25,3 @@ If your would like to contribute to this project, fork the project and raise a P
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
 Copyright (c) 2020 Derrick Muriithi
-
-
- 
-

@@ -1,7 +1,3 @@
-function alert (invalid) {
-    alert("The Data You enterd is invalid");
-}
-
 function MakeArray(n) {
    this.length = n;
    for (var i = 1; i <=n; i++) {
