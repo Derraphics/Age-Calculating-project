@@ -6,6 +6,12 @@
     width: 100px;
     align-items: center;
 }
+.all {
+  text-align: center;
+}
+.heading {
+  padding-left: 30px;
+}
 .card mb-8 {
     padding-left: 20px;
     padding-top: 30px;
