@@ -38,7 +38,7 @@ function compute(form) {
    }  
    var val2x = parseInt(form.month.value, 10)
    var val3 = parseInt(form.year.value, 10)
-   if (val3 < 1700) {
+   if (val3 < 1000) {
       alert("???????")
    }
    if (val2 == 1) {
